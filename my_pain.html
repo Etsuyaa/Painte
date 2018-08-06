@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my_pain</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="titre">
+		<p>MEGADESSIN</p>
+	</div>
+
+	<div id="canvasC">
+	<canvas id="sec" width="800" height="600">
+		
+	</canvas>
+</div>
+<div id="select">
+	<ul>
+		<li>
+	<select id="outil">
+		<option value="Ligne">Ligne</option>
+		<option value="pinceau">Pinceau</option>
+		<option value="rectangle">Rectangle</option>
+		<option value="rectanglePlein">Rectangle plein</option>
+		<option value="cercle">Cercle</option>
+		<option value="cerclePlein">Cercle plein</option>
+		<option value="gomme">Gomme</option>
+	</select>
+</li>
+<li>
+	<select id="width">
+		<option value="1">1 px</option>
+		<option value="2">2 px</option>
+		<option value="5">5 px</option>
+		<option value="10">10 px</option>
+		<option value="15">15 px</option>
+		<option value="20">20 px</option>
+	</select>
+</li>
+<li>
+		<input type="checkbox" id="shadow">
+	<label>Ombre</label>
+</li>
+<li>
+	<label>Taille d'ombre</label>
+	<select id="shadowPath">
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="5">5</option>
+		<option value="10">10</option>
+		<option value="15">15</option>
+		<option value="20">20</option>
+	</select>
+</li>
+</li>
+<li>
+	<input type="color" id="color" />
+</li>
+<Li>
+	<button id="clear">Reset</button>
+</Li>
+<li>
+<button id="save">Sauvegarder</button>
+</li>	
+<li>
+	<input type="file" id="imageLoader" name"imageLoader"/>
+</li>
+</ul>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="my_pain.js"></script>
+</div>
+</body>
+
+</html>

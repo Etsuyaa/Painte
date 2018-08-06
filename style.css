@@ -1,0 +1,33 @@
+body {
+	font-size:20px;
+	font-family: Helvetica;
+	color: white;
+	background-image: url(background.jpg);
+	background-size:100%;
+}
+
+#sec
+{
+	background-color: white;
+border: 1px solid black; 
+display:inline;
+}
+
+#menu {
+
+}
+
+#titre {
+text-align: center;
+
+}
+
+#canvasC {
+   width: 100%;
+   text-align:center;
+}
+
+#select {
+	text-align: center;
+	display:inline;
+}
